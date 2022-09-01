@@ -106,7 +106,7 @@ export function PrimaryFeatures() {
                       </h3>
                       <p
                         className={clsx(
-                          'mt-2 hidden text-sm lg:block',
+                          'mt-2 hidden text-xs lg:block',
                           selectedIndex === featureIndex
                             ? 'text-white'
                             : 'text-blue-100 group-hover:text-white'
@@ -123,7 +123,7 @@ export function PrimaryFeatures() {
                   <Tab.Panel key={feature.title} unmount={false}>
                     <div className="relative sm:px-6 lg:hidden">
                       <div className="absolute -inset-x-4 top-[-6.5rem] bottom-[-4.25rem]  sm:inset-x-0 sm:rounded-t-xl" />
-                      <p className="relative mx-auto hidden max-w-2xl text-base text-white sm:text-center lg:flex">
+                      <p className="relative mx-auto hidden max-w-2xl text-sm text-white sm:text-center lg:flex">
                         {feature.description}
                       </p>
                     </div>
