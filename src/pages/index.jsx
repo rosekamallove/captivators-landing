@@ -9,29 +9,26 @@ import { Pricing } from '@/components/Pricing'
 import { PrimaryFeatures } from '@/components/PrimaryFeatures'
 import { SecondaryFeatures } from '@/components/SecondaryFeatures'
 import { Testimonials } from '@/components/Testimonials'
-import {TopImage} from "@/components/TopImage"
 
 export default function Home() {
   return (
     <>
       <Head>
-        <title>Captivators- A group of clubs</title>
+        <title>TaxPal - Accounting made simple for small businesses</title>
         <meta
           name="description"
           content="Most bookkeeping software is accurate, but hard to use. We make the opposite trade-off, and hope you don’t get audited."
         />
       </Head>
       <Header />
-      
-      <main className='bg-blue-600'>
-      <TopImage />
+      <main>
         <Hero />
         <PrimaryFeatures />
-        {/* <SecondaryFeatures /> */}
+        <SecondaryFeatures />
         <CallToAction />
         <Testimonials />
         <Pricing />
-        {/* <Faqs /> */}
+        <Faqs />
       </main>
       <Footer />
     </>
