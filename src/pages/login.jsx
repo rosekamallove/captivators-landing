@@ -5,25 +5,17 @@ import { AuthLayout } from '@/components/AuthLayout'
 import { Button } from '@/components/Button'
 import { TextField } from '@/components/Fields'
 import { Logo } from '@/components/Logo'
-import logo from '@/images/logos/Logo.jpeg'
-import Image from 'next/image'
 
 export default function Login() {
   return (
     <>
       <Head>
-        <title>Chairpersone</title>
+        <title>Sign In - TaxPal</title>
       </Head>
       <AuthLayout>
         <div className="flex flex-col">
           <Link href="/" aria-label="Home">
-            <Image
-              className="h-14 w-14 object-cover"
-              src={logo}
-              alt=""
-              width={56}
-              height={56}
-            />
+            <Logo className="h-10 w-auto" />
           </Link>
           <div className="mt-20">
             <h2 className="text-lg font-semibold text-gray-900">
