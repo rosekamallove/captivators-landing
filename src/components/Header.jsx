@@ -64,7 +64,7 @@ function MobileNavigation() {
           leaveFrom="opacity-100"
           leaveTo="opacity-0"
         >
-          <Popover.Overlay className="fixed inset-0 bg-slate-300/50" />
+          <Popover.Overlay className="fixed inset-0 bg-slate-300/10" />
         </Transition.Child>
         <Transition.Child
           as={Fragment}
@@ -79,9 +79,9 @@ function MobileNavigation() {
             as="div"
             className="absolute inset-x-0 top-full mt-4 flex origin-top flex-col rounded-2xl bg-dark p-4 text-lg tracking-tight text-slate-900 shadow-xl ring-1 ring-slate-900/5"
           >
-            <MobileNavLink href="#features">Know us</MobileNavLink>
-            <MobileNavLink href="#testimonials">About us</MobileNavLink>
-            <MobileNavLink href="#pricing">Testinomials</MobileNavLink>
+            <MobileNavLink href="#features">About us</MobileNavLink>
+            {/* <MobileNavLink href="#testimonials">About us</MobileNavLink>
+            <MobileNavLink href="#pricing">Testinomials</MobileNavLink> */}
             <hr className="m-2 border-slate-300/40" />
             {/* <MobileNavLink href="/login">Sign in</MobileNavLink> */}
           </Popover.Panel>
@@ -107,9 +107,9 @@ export function Header() {
                           />
             </Link>
             <div className="hidden md:flex md:gap-x-6">
-              <NavLink href="#features">Know Us</NavLink>
-              <NavLink href="#testimonials">About us</NavLink>
-              <NavLink href="#pricing">Testinomials</NavLink>
+              <NavLink href="#features">About Us</NavLink>
+              {/* <NavLink href="#testimonials">About us</NavLink> */}
+              {/* <NavLink href="#pricing">Testinomials</NavLink> */}
             </div>
           </div>
           <div className="flex items-center gap-x-5 md:gap-x-8">

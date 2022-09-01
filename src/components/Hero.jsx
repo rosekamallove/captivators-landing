@@ -27,7 +27,7 @@ export function Hero() {
         </span>{' '}
         for small businesses.
       </h1> */}
-      <h1 className="mx-auto max-w-4xl font-display text-7xl font-medium tracking-tight text-slate-900 sm:text-9xl">
+      <h1 className="mx-auto max-w-4xl font-display text-5xl font-medium tracking-tight text-slate-900 sm:text-6xl">
         Captivators{' '}
       </h1>
       <div className="max-w-2xl md:mx-auto md:text-center xl:max-w-none mt-4">
