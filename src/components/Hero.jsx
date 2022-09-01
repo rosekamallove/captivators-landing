@@ -11,8 +11,8 @@ import { Container } from '@/components/Container'
 
 export function Hero() {
   return (
-    <Container className="pt-20 pb-16 text-center lg:pt-32">
-    {/* <h1 className="mx-auto max-w-4xl font-display text-5xl font-medium tracking-tight text-slate-900 sm:text-7xl">
+    <Container className="flex h-screen flex-col items-center justify-center text-center">
+      {/* <h1 className="mx-auto max-w-4xl font-display text-5xl font-medium tracking-tight text-slate-900 sm:text-7xl">
         Accounting{' '}
         <span className="relative whitespace-nowrap text-blue-600">
           <svg
@@ -27,17 +27,17 @@ export function Hero() {
         </span>{' '}
         for small businesses.
       </h1> */}
-      <h1 className="mx-auto max-w-4xl font-display text-5xl font-medium tracking-tight text-slate-900 sm:text-6xl">
-        Captivators{' '}
+      <h1 className="font-display text-[3rem] font-black text-slate-900 sm:text-[4rem] md:text-[6rem] lg:text-[8rem]">
+        Captivators
       </h1>
-      <div className="max-w-2xl md:mx-auto md:text-center xl:max-w-none mt-4">
-          <h2 className="font-display text-3xl tracking-tight text-white sm:text-4xl md:text-5xl">
-           Captivate , What you wished existed
-          </h2>
-          <p className="mt-6 text-lg tracking-tight text-blue-100">
-            Captivate your future and lead the technology
-          </p>
-        </div>
+      <div className="mt-4 max-w-2xl md:mx-auto md:text-center xl:max-w-none">
+        <h2 className="font-display text-lg tracking-tight text-white sm:text-2xl md:text-3xl">
+          Captivate , What you wished existed
+        </h2>
+        <p className="mt-6 text-lg tracking-tight text-blue-100">
+          Captivate your future and lead the technology
+        </p>
+      </div>
       <div className="mt-10 flex justify-center gap-x-6">
         <Button href="/login">Contact Us</Button>
         {/* <Button
