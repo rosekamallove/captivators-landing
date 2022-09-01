@@ -3,9 +3,9 @@ import Image from 'next/image'
 
 export function TopImage() {
   return (
-      <div className=''>
+      <div className='w-full flex justify-center'>
       <Image
-                            className="mx-auto "
+                            className=""
                             src={topImage}
                             alt=""
                             

@@ -107,7 +107,7 @@ export function Testimonials() {
                             width={56}
                             height={56}
                           /> */}
-                        </div>
+                        </div>  
                       </figcaption>
                     </figure>
                   </li>
