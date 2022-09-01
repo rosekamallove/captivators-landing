@@ -63,7 +63,7 @@ export function PrimaryFeatures() {
       className="relative overflow-hidden bg-blue-600 pt-20 pb-28 sm:py-32"
     >
       <Image
-        className="absolute top-1/2 left-1/2 max-w-none translate-x-[-44%] translate-y-[-42%]"
+        className="absolute top-1/2 left-1/2 max-w-none translate-x-[-40%] translate-y-[-42%]"
         src={backgroundImage}
         alt=""
         width={2245}
