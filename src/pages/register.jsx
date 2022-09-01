@@ -5,7 +5,7 @@ import { AuthLayout } from '@/components/AuthLayout'
 import { Button } from '@/components/Button'
 import { SelectField, TextField } from '@/components/Fields'
 import { Logo } from '@/components/Logo'
-import logo from '@/images/logos/logo.png'
+import logo from '@/images/logos/logo.jpeg'
 import Image from 'next/image'
 
 export default function Register() {

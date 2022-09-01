@@ -7,7 +7,7 @@ import { TextField } from '@/components/Fields'
 import InchargeImage from '@/images/Incharge.jpeg'
 import Image from 'next/image'
 import { Logo } from '@/components/Logo'
-import logo from '@/images/logos/logo.png'
+import logo from '@/images/logos/logo.jpeg'
 
 export default function Login() {
   return (

@@ -6,7 +6,7 @@ import clsx from 'clsx'
 import { Button } from '@/components/Button'
 import { Container } from '@/components/Container'
 import { Logo } from '@/components/Logo'
-import logo from '@/images/logos/logo.png'
+import logo from '@/images/logos/logo.jpeg'
 import Image from 'next/image'
 import { NavLink } from '@/components/NavLink'
 

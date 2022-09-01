@@ -30,7 +30,13 @@ export function Hero() {
         </span>{' '}
         for small businesses.
       </h1> */}
-      <Image src={logo} alt="" width={300} height={300} />
+      <Image
+        src={logo}
+        alt=""
+        width={300}
+        height={300}
+        className="rounded-full"
+      />
       <h1 className="font-display text-[3rem] font-black text-slate-900 sm:text-[4rem] md:text-[6rem] lg:text-[8rem]">
         Captivators
       </h1>
