@@ -12,27 +12,28 @@ import screenshotVatReturns from '@/images/screenshots/vat-returns.png'
 
 const features = [
   {
-    title: 'Payroll',
+    title: 'CodeZen',
     description:
-      "Keep track of everyone's salaries and whether or not they've been paid. Direct deposit not supported.",
+      "To create an environment of coding ,development and organize HACKATHONS,WEBATHONS in campus. To organize technical workshops. To conduct learning session with field specialized and experienced seniors. ",
     image: screenshotPayroll,
   },
   {
-    title: 'Claim expenses',
+    title: 'Photopedia',
     description:
-      "All of your receipts organized into one place, as long as you don't mind typing in the data by hand.",
+      "Everyone has some passion and this club is for those students who have Photography as their passion. Organizing workshops so that students can explore it more widely. Organizing events like:- Photography contest, videography contest, seminars etc. Creating an environment so that everyone could enjoy Photography.",
     image: screenshotExpenses,
   },
   {
-    title: 'VAT handling',
+    title: 'Artistic dots',
     description:
-      "We only sell our software to companies who don't deal with VAT at all, so technically we do all the VAT stuff they need.",
+      "To develop a healthy environment for cultural activities in campus. To organize sessions like: open mic, extempore, debate, group discussion etc. To encourage talents of students. " ,
+      
     image: screenshotVatReturns,
   },
   {
-    title: 'Reporting',
+    title: 'Socilaize lives',
     description:
-      'Easily export your data into an Excel spreadsheet where you can do whatever the hell you want with it.',
+      'To organize social service events like tree plantation drive, safai abhiyaan etc. To organize seminars for slum areas for awareness Make people aware of their duty towards society and environment.',
     image: screenshotReporting,
   },
 ]
@@ -72,11 +73,10 @@ export function PrimaryFeatures() {
       <Container className="relative">
         <div className="max-w-2xl md:mx-auto md:text-center xl:max-w-none">
           <h2 className="font-display text-3xl tracking-tight text-white sm:text-4xl md:text-5xl">
-            Everything you need to run your books.
+           Captivate , What you wished existed
           </h2>
           <p className="mt-6 text-lg tracking-tight text-blue-100">
-            Well everything you need if you aren’t that picky about minor
-            details like tax compliance.
+            Captivate your future and lead the technology
           </p>
         </div>
         <Tab.Group
