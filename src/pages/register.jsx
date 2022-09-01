@@ -5,23 +5,31 @@ import { AuthLayout } from '@/components/AuthLayout'
 import { Button } from '@/components/Button'
 import { SelectField, TextField } from '@/components/Fields'
 import { Logo } from '@/components/Logo'
+import logo from '@/images/logos/Logo.jpeg'
+import Image from 'next/image'
 
 export default function Register() {
   return (
     <>
       <Head>
-        <title>Sign Up - TaxPal</title>
+        <title>Join Us</title>
       </Head>
       <AuthLayout>
         <div className="flex flex-col">
           <Link href="/" aria-label="Home">
-            <Logo className="h-10 w-auto" />
+          <Image
+                            className="h-14 w-14 object-cover"
+                            src={logo}
+                            alt=""
+                            width={56}
+                            height={56}
+                          />
           </Link>
           <div className="mt-20">
             <h2 className="text-lg font-semibold text-gray-900">
-              Get started for free
+              Join Us
             </h2>
-            <p className="mt-2 text-sm text-gray-700">
+            {/* <p className="mt-2 text-sm text-gray-700">
               Already registered?{' '}
               <Link
                 href="/login"
@@ -30,7 +38,7 @@ export default function Register() {
                 Sign in
               </Link>{' '}
               to your account.
-            </p>
+            </p> */}
           </div>
         </div>
         <form
@@ -64,10 +72,10 @@ export default function Register() {
           />
           <TextField
             className="col-span-full"
-            label="Password"
+            label="message"
             id="password"
-            name="password"
-            type="password"
+            name="message"
+            type="text"
             autoComplete="new-password"
             required
           />
@@ -77,10 +85,10 @@ export default function Register() {
             id="referral_source"
             name="referral_source"
           >
-            <option>AltaVista search</option>
-            <option>Super Bowl commercial</option>
-            <option>Our route 34 city bus ad</option>
-            <option>The “Never Use This” podcast</option>
+            <option>Social Media</option>
+            <option>Friends</option>
+            <option>News</option>
+            <option>College</option>
           </SelectField>
           <div className="col-span-full">
             <Button
@@ -90,7 +98,7 @@ export default function Register() {
               className="w-full"
             >
               <span>
-                Sign up <span aria-hidden="true">&rarr;</span>
+                Submit <span aria-hidden="true">&rarr;</span>
               </span>
             </Button>
           </div>
