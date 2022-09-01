@@ -11,60 +11,47 @@ const testimonials = [
   [
     {
       content:
-        'TaxPal is so easy to use I can’t help but wonder if it’s really doing the things the government expects me to do.',
+        '',
       author: {
-        name: 'Sheryl Berge',
-        role: 'CEO at Lynch LLC',
-        image: avatarImage1,
+        name: 'CodeZen',
+        role1: 'Rose Kamal love',
+        role2: 'Niharika Shakya',
+        role3: 'Yash Kumar Mishra , Nishith Pandey',
       },
     },
     {
       content:
-        'I’m trying to get a hold of someone in support, I’m in a lot of trouble right now and they are saying it has something to do with my books. Please get back to me right away.',
+        '',
       author: {
-        name: 'Amy Hahn',
-        role: 'Director at Velocity Industries',
-        image: avatarImage4,
-      },
-    },
-  ],
-  [
-    {
-      content:
-        'The best part about TaxPal is every time I pay my employees, my bank balance doesn’t go down like it used to. Looking forward to spending this extra cash when I figure out why my card is being declined.',
-      author: {
-        name: 'Leland Kiehn',
-        role: 'Founder of Kiehn and Sons',
-        image: avatarImage5,
-      },
-    },
-    {
-      content:
-        'There are so many things I had to do with my old software that I just don’t do at all with TaxPal. Suspicious but I can’t say I don’t love it.',
-      author: {
-        name: 'Erin Powlowski',
-        role: 'COO at Armstrong Inc',
-        image: avatarImage2,
+        name: 'Photopedia',
+        role1: 'Harshit Kumar Singh',
+        role2: 'Avneesh Kumar',
+        role3: 'Aditi Mishra',
       },
     },
   ],
   [
     {
       content:
-        'I used to have to remit tax to the EU and with TaxPal I somehow don’t have to do that anymore. Nervous to travel there now though.',
+        '',
       author: {
-        name: 'Peter Renolds',
-        role: 'Founder of West Inc',
-        image: avatarImage3,
+        name: 'Artistic dots',
+        role1: 'Utkarsh Gupta',
+        role2: 'Sakshi Agarwal',
+        role3: 'Niharika Shakya',
       },
     },
+  ],
+  [
+    
     {
       content:
-        'This is the fourth email I’ve sent to your support team. I am literally being held in jail for tax fraud. Please answer your damn emails, this is important.',
+        '',
       author: {
-        name: 'Amy Hahn',
-        role: 'Director at Velocity Industries',
-        image: avatarImage4,
+        name: 'Socilaize lives',
+        role1: 'Nishith Pandey',
+        role2: 'Aditi Mishra',
+        role3: 'Harshit Kumar Singh',
       },
     },
   ],
@@ -88,13 +75,8 @@ export function Testimonials() {
       <Container>
         <div className="mx-auto max-w-2xl md:text-center">
           <h2 className="font-display text-3xl tracking-tight text-slate-900 sm:text-4xl">
-            Loved by businesses worldwide.
+           About Us
           </h2>
-          <p className="mt-4 text-lg tracking-tight text-slate-700">
-            Our software is so simple that people can’t help but fall in love
-            with it. Simplicity is easy when you just skip tons of
-            mission-critical features.
-          </p>
         </div>
         <ul
           role="list"
@@ -118,18 +100,24 @@ export function Testimonials() {
                             {testimonial.author.name}
                           </div>
                           <div className="mt-1 text-sm text-slate-500">
-                            {testimonial.author.role}
+                            {testimonial.author.role1}
+                          </div>
+                          <div className="mt-1 text-sm text-slate-500">
+                            {testimonial.author.role2}
+                          </div>
+                          <div className="mt-1 text-sm text-slate-500">
+                            {testimonial.author.role3}
                           </div>
                         </div>
                         <div className="overflow-hidden rounded-full bg-slate-50">
-                          <Image
+                          {/* <Image
                             className="h-14 w-14 object-cover"
                             src={testimonial.author.image}
                             alt=""
                             width={56}
                             height={56}
-                          />
-                        </div>
+                          /> */}
+                        </div>  
                       </figcaption>
                     </figure>
                   </li>
