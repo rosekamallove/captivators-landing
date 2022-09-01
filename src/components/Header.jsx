@@ -6,7 +6,7 @@ import clsx from 'clsx'
 import { Button } from '@/components/Button'
 import { Container } from '@/components/Container'
 import { Logo } from '@/components/Logo'
-import logo from '@/images/logos/Logo.jpeg'
+import logo from '@/images/logos/logo.png'
 import Image from 'next/image'
 import { NavLink } from '@/components/NavLink'
 
@@ -77,7 +77,7 @@ function MobileNavigation() {
         >
           <Popover.Panel
             as="div"
-            className="absolute inset-x-0 top-full mt-4 flex origin-top flex-col rounded-2xl bg-dark p-4 text-lg tracking-tight text-slate-900 shadow-xl ring-1 ring-slate-900/5"
+            className="bg-dark absolute inset-x-0 top-full mt-4 flex origin-top flex-col rounded-2xl p-4 text-lg tracking-tight text-slate-900 shadow-xl ring-1 ring-slate-900/5"
           >
             <MobileNavLink href="#features">About us</MobileNavLink>
             {/* <MobileNavLink href="#testimonials">About us</MobileNavLink>
@@ -95,16 +95,16 @@ export function Header() {
   return (
     <header className="">
       <Container>
-        <nav className="relative z-50 flex justify-between">
+        <nav className="relative z-50 flex justify-between p-2">
           <div className="flex items-center md:gap-x-12">
             <Link href="#" aria-label="Home">
-            <Image
-                            className="h-14 w-14 object-cover"
-                            src={logo}
-                            alt=""
-                            width={56}
-                            height={56}
-                          />
+              <Image
+                className="h-14 w-14 object-cover"
+                src={logo}
+                alt=""
+                width={56}
+                height={56}
+              />
             </Link>
             <div className="hidden md:flex md:gap-x-6">
               <NavLink href="#features">About Us</NavLink>
