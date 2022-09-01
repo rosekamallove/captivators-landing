@@ -5,36 +5,36 @@ import clsx from 'clsx'
 
 import { Container } from '@/components/Container'
 import backgroundImage from '@/images/background-features.jpg'
-import screenshotExpenses from '@/images/screenshots/expenses.png'
-import screenshotPayroll from '@/images/screenshots/payroll.png'
-import screenshotReporting from '@/images/screenshots/reporting.png'
-import screenshotVatReturns from '@/images/screenshots/vat-returns.png'
+import PhotopediaCover from '@/images/photopediaCover.jpg'
+import CodeZenCover from '@/images/codeZenCover.jpg'
+import SocializeLivesCover from '@/images/socializeLivesCover.jpg'
+import ArtisticDotsCover from '@/images/artisticDotsCover.jpg'
 
 const features = [
   {
     title: 'CodeZen',
     description:
-      "To create an environment of coding ,development and organize HACKATHONS,WEBATHONS in campus. To organize technical workshops. To conduct learning session with field specialized and experienced seniors. ",
-    image: screenshotPayroll,
+      'To create an environment of coding ,development and organize HACKATHONS,WEBATHONS in campus. To organize technical workshops. To conduct learning session with field specialized and experienced seniors. ',
+    image: CodeZenCover,
   },
   {
     title: 'Photopedia',
     description:
-      "Everyone has some passion and this club is for those students who have Photography as their passion. Organizing workshops so that students can explore it more widely. Organizing events like:- Photography contest, videography contest, seminars etc. Creating an environment so that everyone could enjoy Photography.",
-    image: screenshotExpenses,
+      'Everyone has some passion and this club is for those students who have Photography as their passion. Organizing workshops so that students can explore it more widely. Organizing events like:- Photography contest, videography contest, seminars etc. Creating an environment so that everyone could enjoy Photography.',
+    image: PhotopediaCover,
   },
   {
-    title: 'Artistic dots',
+    title: 'ArtisticDots',
     description:
-      "To develop a healthy environment for cultural activities in campus. To organize sessions like: open mic, extempore, debate, group discussion etc. To encourage talents of students. " ,
-      
-    image: screenshotVatReturns,
+      'To develop a healthy environment for cultural activities in campus. To organize sessions like: open mic, extempore, debate, group discussion etc. To encourage talents of students. ',
+
+    image: ArtisticDotsCover,
   },
   {
-    title: 'Socilaize lives',
+    title: 'SocilaizeLives',
     description:
       'To organize social service events like tree plantation drive, safai abhiyaan etc. To organize seminars for slum areas for awareness Make people aware of their duty towards society and environment.',
-    image: screenshotReporting,
+    image: SocializeLivesCover,
   },
 ]
 
