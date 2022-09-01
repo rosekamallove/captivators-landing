@@ -1,17 +1,17 @@
-import topImage from '@/images/Top1.jpeg'
+import topImage from '@/images/Top3.jpeg'
 import Image from 'next/image'
 
 export function TopImage() {
+  return null;
   return (
-      <div className='w-full flex justify-center'>
+    <div className=' flex justify-center w-100vw'>
       <Image
-                            className=""
-                            src={topImage}
-                            alt=""
-                            
-                        
-                          /> 
-      </div>
-  
+        className="w-full object cover"
+        src={topImage}
+        alt=""
+
+      />
+    </div>
+
   )
 }

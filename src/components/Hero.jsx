@@ -30,6 +30,14 @@ export function Hero() {
       <h1 className="mx-auto max-w-4xl font-display text-7xl font-medium tracking-tight text-slate-900 sm:text-9xl">
         Captivators{' '}
       </h1>
+      <div className="max-w-2xl md:mx-auto md:text-center xl:max-w-none mt-4">
+          <h2 className="font-display text-3xl tracking-tight text-white sm:text-4xl md:text-5xl">
+           Captivate , What you wished existed
+          </h2>
+          <p className="mt-6 text-lg tracking-tight text-blue-100">
+            Captivate your future and lead the technology
+          </p>
+        </div>
       <div className="mt-10 flex justify-center gap-x-6">
         <Button href="/login">Contact Us</Button>
         {/* <Button

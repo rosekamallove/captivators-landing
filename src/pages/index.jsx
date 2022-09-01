@@ -23,7 +23,7 @@ export default function Home() {
       </Head>
       <Header />
       
-      <main>
+      <main className='bg-blue-600'>
       <TopImage />
         <Hero />
         <PrimaryFeatures />

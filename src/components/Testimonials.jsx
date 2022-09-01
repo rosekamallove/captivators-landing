@@ -14,8 +14,9 @@ const testimonials = [
         '',
       author: {
         name: 'CodeZen',
-        role: 'EVENTS',
-        image: avatarImage1,
+        role1: 'Rose Kamal love',
+        role2: 'Niharika Shakya',
+        role3: 'Yash Kumar Mishra , Nishith Pandey',
       },
     },
     {
@@ -23,8 +24,9 @@ const testimonials = [
         '',
       author: {
         name: 'Photopedia',
-        role: 'Events',
-        image: avatarImage4,
+        role1: 'Harshit Kumar Singh',
+        role2: 'Avneesh Kumar',
+        role3: 'Aditi Mishra',
       },
     },
   ],
@@ -34,8 +36,9 @@ const testimonials = [
         '',
       author: {
         name: 'Artistic dots',
-        role: 'Events',
-        image: avatarImage5,
+        role1: 'Utkarsh Gupta',
+        role2: 'Sakshi Agarwal',
+        role3: 'Niharika Shakya',
       },
     },
   ],
@@ -46,8 +49,9 @@ const testimonials = [
         '',
       author: {
         name: 'Socilaize lives',
-        role: 'Events',
-        image: avatarImage4,
+        role1: 'Nishith Pandey',
+        role2: 'Aditi Mishra',
+        role3: 'Harshit Kumar Singh',
       },
     },
   ],
@@ -71,7 +75,7 @@ export function Testimonials() {
       <Container>
         <div className="mx-auto max-w-2xl md:text-center">
           <h2 className="font-display text-3xl tracking-tight text-slate-900 sm:text-4xl">
-           Upcomming Events
+           About Us
           </h2>
         </div>
         <ul
@@ -96,7 +100,13 @@ export function Testimonials() {
                             {testimonial.author.name}
                           </div>
                           <div className="mt-1 text-sm text-slate-500">
-                            {testimonial.author.role}
+                            {testimonial.author.role1}
+                          </div>
+                          <div className="mt-1 text-sm text-slate-500">
+                            {testimonial.author.role2}
+                          </div>
+                          <div className="mt-1 text-sm text-slate-500">
+                            {testimonial.author.role3}
                           </div>
                         </div>
                         <div className="overflow-hidden rounded-full bg-slate-50">
