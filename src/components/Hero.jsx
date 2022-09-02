@@ -3,7 +3,7 @@
 import { Button } from '@/components/Button'
 import { Container } from '@/components/Container'
 import Image from 'next/image'
-import logo from '@/images/logos/logo-2.png'
+// import logo from '@/images/logos/logo-2.png'
 
 // import logoLaravel from '@/images/logos/laravel.svg'
 // import logoMirage from '@/images/logos/mirage.svg'
@@ -30,14 +30,14 @@ export function Hero() {
         </span>{' '}
         for small businesses.
       </h1> */}
-      <Image
+      {/* <Image
         src={logo}
         alt=""
         width={300}
         height={300}
         className="rounded-full"
-      />
-      <h1 className="font-display text-[3rem] font-black text-slate-900 sm:text-[4rem] md:text-[6rem] lg:text-[8rem]">
+      /> */}
+      <h1 className="font-display text-[3rem] font-black text-yellow-300 sm:text-[4rem] md:text-[6rem] lg:text-[8rem]">
         Captivators
       </h1>
       <div className="mt-4 max-w-2xl md:mx-auto md:text-center xl:max-w-none">

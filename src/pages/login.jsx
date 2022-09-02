@@ -17,7 +17,7 @@ export default function Login() {
       </Head>
       <AuthLayout>
         <div className="flex flex-col">
-          <Link href="/" aria-label="Home">
+          {/* <Link href="/" aria-label="Home">
             <Image
               className="h-14 w-14 object-cover"
               src={logo}
@@ -25,7 +25,7 @@ export default function Login() {
               width={56}
               height={56}
             />
-          </Link>
+          </Link> */}
           <div className="mt-10">
             <div className="w-100vw flex justify-center">
               <Image
