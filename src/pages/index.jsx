@@ -23,7 +23,7 @@ export default function Home() {
       </Head>
       <Header />
       
-      <main className='bg-blue-600'>
+      <main className='bg-gradient-to-r from-indigo-800 via-purple-800 to-pink-800'>
       <TopImage />
         <Hero />
         <PrimaryFeatures />

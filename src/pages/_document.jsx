@@ -23,6 +23,7 @@ export default function Document(props) {
       <body className="flex h-full flex-col">
         <Main />
         <NextScript />
+        
       </body>
     </Html>
   )
