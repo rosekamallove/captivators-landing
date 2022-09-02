@@ -37,23 +37,23 @@ export default function Login() {
               />
             </div>
 
-            <h2 className="mt-4 text-center  text-xl font-semibold text-gray-200">
+            <h2 className="mt-4 text-center  text-xl font-semibold text-gray-900">
               Harshit kumar singh
             </h2>
-            <h2 className=" mt-4 text-center text-sm font-semibold text-gray-200">
+            <h2 className=" mt-4 text-center text-sm font-semibold text-gray-900">
               Student Incharge
             </h2>
-            <h2 className=" mt-4 text-center text-sm font-semibold text-gray-200">
+            <h2 className=" mt-4 text-center text-sm font-semibold text-gray-900">
               Phone :- +91-8534833926
             </h2>
-            <h2 className=" mt-4 text-center text-sm font-semibold text-gray-200">
+            <h2 className=" mt-4 text-center text-sm font-semibold text-gray-900">
               Email :- club.csitmjpru@gmail.com
             </h2>
-            <h2 className=" mt-4 text-center text-sm font-semibold text-gray-200">
+            <h2 className=" mt-4 text-center text-sm font-semibold text-gray-900">
               Address :- Department of computer science and information
               technology , Mahatma Jyotiba Phule Rohilkhand University ,
             </h2>
-            <h2 className=" mt-1 text-center text-sm font-semibold text-gray-200">
+            <h2 className=" mt-1 text-center text-sm font-semibold text-gray-900">
               Bareilly , Uttar Pradesh , Pincode :- 243006
             </h2>
           </div>
