@@ -8,20 +8,16 @@ import Wave from "./wave";
 
 const Intro: React.FC = () => {
   return (
-    <section
-      className={`flex flex-col bg-[#1C0A63] py-20 text-3xl text-white md:text-4xl`}
-    >
-      <div className="container mx-auto px-11">
-        <h2 className="mx-auto mb-24 max-w-5xl text-6xl font-bold xl:text-7xl text-center">
-          Our Clubs
-        </h2>
-      </div>
+    <section className={`flex flex-col text-3xl text-white md:text-4xl`}>
       <Wrapper>
         <Background />
         <WaveWrapper>
           <Wave />
           <StaticBlobs />
         </WaveWrapper>
+        <h2 className="mx-auto py-24 max-w-5xl text-6xl font-bold xl:text-7xl text-center">
+          Our Clubs
+        </h2>
         <ClubCard />
       </Wrapper>
     </section>
@@ -30,7 +26,7 @@ const Intro: React.FC = () => {
 
 const Wrapper = styled.div`
   position: relative;
-  height: 80vh;
+  height: 100vh;
 `;
 
 const WaveWrapper = styled.div`
