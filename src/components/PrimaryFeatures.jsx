@@ -17,7 +17,7 @@ const features = [
     image: CodeZenCover,
   },
   {
-    title: 'Photopedia',
+    title: 'PhotoPedia',
     description: '📷 Photography club.',
     image: PhotopediaCover,
   },
