@@ -4,7 +4,7 @@ import Link from 'next/link'
 import { AuthLayout } from '@/components/AuthLayout'
 import { Button } from '@/components/Button'
 import { TextField } from '@/components/Fields'
-import InchargeImage from '@/images/Incharge.jpeg'
+import InchargeImage from '@/images/Inchargeimage.jpg'
 import Image from 'next/image'
 import { Logo } from '@/components/Logo'
 import logo from '@/images/logos/logo.jpeg'
@@ -50,8 +50,8 @@ export default function Login() {
               Email :- club.csitmjpru@gmail.com
             </h2>
             <h2 className=" mt-4 text-center text-sm font-semibold text-gray-900">
-              Address :- Department of computer science and information
-              technology , Mahatma Jyotiba Phule Rohilkhand University ,
+              Address :- Department Of Computer Science and Information
+              Technology , Mahatma Jyotiba Phule Rohilkhand University ,
             </h2>
             <h2 className=" mt-1 text-center text-sm font-semibold text-gray-900">
               Bareilly , Uttar Pradesh , Pincode :- 243006

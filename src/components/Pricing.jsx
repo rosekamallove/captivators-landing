@@ -2,6 +2,10 @@ import clsx from 'clsx'
 
 import { Button } from '@/components/Button'
 import { Container } from '@/components/Container'
+import HodImage from '@/images/avatars/hodImage.jpg'
+import IrammaamImage from '@/images/avatars/IrammaamImage.jpg'
+import InchargeImage from '@/images/Inchargeimage.jpg'
+import Image from 'next/image'
 
 function SwirlyDoodle({ className }) {
   return (
@@ -46,14 +50,23 @@ function CheckIcon({ className }) {
   )
 }
 
-function Plan({ name, price, description, href, features, featured = false }) {
+
+function Plan({ name,price, Image12, description, href, features, featured = false }) {
   return (
     <section
       className={clsx(
         'flex flex-col rounded-3xl px-6 sm:px-8',
-        featured ? 'order-first bg-blue-600 py-8 lg:order-none' : 'lg:py-8'
+        featured ? 'order-first bg-white/10 py-8 lg:order-none' : 'lg:py-8'
       )}
     >
+      
+      <Image
+                className="inline object-cover w-16 h-16 mr-2 rounded-full"
+                src={Image12}
+                alt=""
+                // width={250}
+                // height={300}
+              />
       <h3 className="mt-5 font-display text-lg text-white">{name}</h3>
       <p
         className={clsx(
@@ -63,9 +76,10 @@ function Plan({ name, price, description, href, features, featured = false }) {
       >
         {description}
       </p>
-      <p className="order-first font-display text-5xl font-light tracking-tight text-white">
+      {/* <p className="order-first font-display text-5xl font-light tracking-tight text-white">
         {price}
-      </p>
+      </p> */}
+      
       <ul
         role="list"
         className={clsx(
@@ -74,13 +88,16 @@ function Plan({ name, price, description, href, features, featured = false }) {
         )}
       >
         {features.map((feature) => (
+          
           <li key={feature} className="flex">
-            <CheckIcon className={featured ? 'text-white' : 'text-slate-400'} />
+            
+            {/* <CheckIcon className={featured ? 'text-white' : 'text-slate-400'} /> */}
+            <h1 className='text-5xl '>❝</h1>
             <span className="ml-4">{feature}</span>
           </li>
         ))}
       </ul>
-      <Button
+      {/* <Button
         href={href}
         variant={featured ? 'solid' : 'outline'}
         color="white"
@@ -88,7 +105,7 @@ function Plan({ name, price, description, href, features, featured = false }) {
         aria-label={`Get started with the ${name} plan for ${price}`}
       >
         Get started
-      </Button>
+      </Button> */}
     </section>
   )
 }
@@ -98,63 +115,58 @@ export function Pricing() {
     <section
       id="pricing"
       aria-label="Pricing"
-      className="bg-slate-900 py-20 sm:py-32"
+      className="bg-gradient-to-r from-fuchsia-900 via-purple-800 to-pink-900 py-20 sm:py-32"
     >
       <Container>
         <div className="md:text-center">
           <h2 className="font-display text-3xl tracking-tight text-white sm:text-4xl">
             <span className="relative whitespace-nowrap">
               <SwirlyDoodle className="absolute top-1/2 left-0 h-[1em] w-full fill-blue-400" />
-              <span className="relative">Simple pricing,</span>
+              <span className="relative">Testinomials</span>
             </span>{' '}
-            for everyone.
+            {/* for everyone. */}
           </h2>
-          <p className="mt-4 text-lg text-slate-400">
+          {/* <p className="mt-4 text-lg text-slate-400">
             It doesn’t matter what size your business is, our software won’t
             work well for you.
-          </p>
+          </p> */}
         </div>
         <div className="-mx-4 mt-16 grid max-w-2xl grid-cols-1 gap-y-10 sm:mx-auto lg:-mx-8 lg:max-w-none lg:grid-cols-3 xl:mx-0 xl:gap-x-8">
-          <Plan
-            name="Starter"
-            price="$9"
-            description="Good for anyone who is self-employed and just getting started."
-            href="/register"
-            features={[
-              'Send 10 quotes and invoices',
-              'Connect up to 2 bank accounts',
-              'Track up to 15 expenses per month',
-              'Manual payroll support',
-              'Export up to 3 reports',
-            ]}
-          />
-          <Plan
+        <Plan
             featured
-            name="Small business"
+            name="Dr. S.S Bedi"
+           Image12={HodImage}
             price="$15"
-            description="Perfect for small / medium sized businesses."
+            description="Head of Department of Computer Science and Information
+            Technology ."
             href="/register"
             features={[
-              'Send 25 quotes and invoices',
-              'Connect up to 5 bank accounts',
-              'Track up to 50 expenses per month',
-              'Automated payroll support',
-              'Export up to 12 reports',
-              'Bulk reconcile transactions',
-              'Track in multiple currencies',
+              'The club has been created to provide an environment to our student  to develop and nourish their inner aspect extensively. ',
+              
             ]}
           />
           <Plan
-            name="Enterprise"
-            price="$39"
-            description="For even the biggest enterprise companies."
+            name="Dr. Iram Naim"
+           Image12={IrammaamImage }
+            price="$9"
+            description="Proctor of Department of Computer Science and Information
+            Technology ."
             href="/register"
             features={[
-              'Send unlimited quotes and invoices',
-              'Connect up to 15 bank accounts',
-              'Track up to 200 expenses per month',
-              'Automated payroll support',
-              'Export up to 25 reports, including TPS',
+              'This club has a vision for the student to  flourish  in field  apart from academics.',
+              
+            ]}
+          />
+          
+          <Plan
+            name="Harshit kumar Singh"
+          Image12={InchargeImage}
+            price="$39"
+            description="Student Incharge of Captivators ."
+            href="/register"
+            features={[
+              'The club steps forward to develop a community that provides an opportunities to the student to learn teamwork and To develop environment of healthy competition. ',
+              
             ]}
           />
         </div>

@@ -97,7 +97,7 @@ export default function Register() {
           />
           <TextField
             className="col-span-full"
-            label="message"
+            label="Message"
             id="password"
             name="message"
             type="text"
