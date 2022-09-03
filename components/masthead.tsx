@@ -1,4 +1,4 @@
-import React, { useCallback, useContext, useRef, useState } from "react";
+import React, { useContext, useRef } from "react";
 import styled from "styled-components";
 import BlobAnimation from "./blob-animation";
 import Card from "./card";
@@ -26,7 +26,9 @@ const MastHead: React.FC<Props> = ({ executeScroll }) => {
   return (
     <div
       ref={refContainer}
-      className={`${progress === 0 ? "" : "sticky"} top-0 -z-10 w-full h-auto`}
+      className={`${
+        progress === 0 ? "" : "sticky"
+      } top-0 -z-10 w-full h-auto overflow-hidden`}
       style={{ transform: `translateY(-${progress * 20}vh)` }}
     >
       <Wrapper>
