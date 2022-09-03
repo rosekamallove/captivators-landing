@@ -29,7 +29,7 @@ const Stats: React.FC = () => {
   }
 
   return (
-    <div ref={refContainer} className="bg-[#020031] text-white">
+    <div ref={refContainer} className="bg-indigo-900 text-white">
       <div className="mx-auto flex min-h-screen max-w-5xl flex-col  items-center justify-center px-10 py-24  text-4xl font-semibold md:py-28 md:text-6xl lg:px-20 lg:py-36 lg:text-7xl">
         <div className="leading-[1.15]">
           <span
