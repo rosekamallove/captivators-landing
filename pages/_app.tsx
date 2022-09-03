@@ -5,7 +5,7 @@ import "../styles/index.css";
 function MyApp({ Component, pageProps }: AppProps) {
   return (
     <ScrollObserver>
-      <div className="overflow-hidden">
+      <div>
         <Component {...pageProps} />
       </div>
     </ScrollObserver>
