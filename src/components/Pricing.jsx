@@ -162,7 +162,7 @@ export function Pricing() {
             name="Harshit kumar Singh"
           Image12={InchargeImage}
             price="$39"
-            description="Student Incharge of Captivators"
+            description="Student Incharge of Captivators ."
             href="/register"
             features={[
               'The club steps forward to develop a community that provides an opportunities to the student to learn teamwork and To develop environment of healthy competition. ',
