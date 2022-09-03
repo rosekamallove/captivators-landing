@@ -5,7 +5,7 @@ import "../styles/index.css";
 function MyApp({ Component, pageProps }: AppProps) {
   return (
     <ScrollObserver>
-      <div className="m-0 p-0 font-[Raleway]">
+      <div>
         <Component {...pageProps} />
       </div>
     </ScrollObserver>
