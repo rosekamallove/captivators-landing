@@ -28,7 +28,7 @@ const MastHead: React.FC<Props> = ({ executeScroll }) => {
       ref={refContainer}
       className={`${
         progress === 0 ? "" : "sticky"
-      } top-0 -z-10 w-full h-auto overflow-hidden`}
+      } top-0 -z-10 h-auto w-full overflow-hidden`}
       style={{ transform: `translateY(-${progress * 20}vh)` }}
     >
       <Wrapper>

@@ -4,7 +4,7 @@ import IconRow from "./icon-row";
 export default function ClubCard() {
   return (
     <Wrapper>
-      <RowWrapper>
+      <RowWrapper className="grid grid-cols-1 p-8 sm:grid-cols-2 sm:gap-y-32">
         <IconRow
           number="🧑‍💻"
           title="CodeZen"
@@ -12,13 +12,13 @@ export default function ClubCard() {
         />
         <IconRow
           number="📷"
-          title="PhotoPedia"
-          subtitle="Develop a healthy enviorment for cultural activities in campus"
+          title="Photopedia"
+          subtitle="Develop a healthy enviorment for photography"
         />
         <IconRow
           number="🖌️"
           title="ArtisticDots"
-          subtitle="For those with photography as their passion"
+          subtitle="For those with art as their passion"
         />
         <IconRow
           number="🫂"
@@ -32,13 +32,9 @@ export default function ClubCard() {
 
 const Wrapper = styled.div`
   position: relative;
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  max-width: 80%;
-  width: 100%;
+  width: 85%;
   height: auto;
-  padding: 100px;
+  padding: 1rem;
   background: rgba(15, 14, 71, 0.3);
   box-shadow: 0px 30px 60px rgba(0, 0, 0, 0.25),
     inset 0 0 0 0.5px rgba(255, 255, 255, 0.2);
@@ -48,11 +44,6 @@ const Wrapper = styled.div`
 `;
 
 const RowWrapper = styled.div`
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-items: center;
   width: 100%;
   height: fit-content;
-  gap: 50px;
 `;

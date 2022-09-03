@@ -15,7 +15,7 @@ const Intro: React.FC = () => {
           <Wave />
           <StaticBlobs />
         </WaveWrapper>
-        <h2 className="mx-auto py-24 max-w-5xl text-6xl font-bold xl:text-7xl text-center">
+        <h2 className="py-24 text-center text-4xl font-semibold sm:text-4xl lg:text-6xl">
           Our Clubs
         </h2>
         <ClubCard />

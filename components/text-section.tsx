@@ -3,17 +3,23 @@ import styled from "styled-components";
 export default function TextSection() {
   return (
     <Wrapper>
-      <Title>Captivators</Title>
-      <Subtitle>Captivate, what you wished existed</Subtitle>
-      <Description>Captivate your future and lead the technology</Description>
+      <h1 className="mb-4 font-['Oswald'] text-5xl font-bold text-white sm:mb-8 sm:text-6xl lg:text-8xl">
+        CAPTIVATORS
+      </h1>
+      <h2 className="mb-2 p-0 text-lg text-white sm:text-2xl">
+        Captivate, what you wished existed
+      </h2>
+      <h2 className="m-0 p-0 text-lg text-white opacity-70 sm:text-2xl">
+        Captivate your future and lead the technology
+      </h2>
     </Wrapper>
   );
 }
 
 const Wrapper = styled.div`
   position: relative;
-  display: grid;
-  gap: 20px;
+  display: flex;
+  flex-direction: column;
   text-align: center;
   margin: 0 auto;
   padding: 140px 20px;
@@ -25,14 +31,6 @@ const Subtitle = styled.p`
   font-weight: 400;
   font-size: 40px;
   line-height: 18px;
-  margin: 0;
-`;
-
-const Title = styled.h1`
-  color: rgba(255, 255, 255, 1);
-  font-style: normal;
-  font-weight: bold;
-  font-size: 82px;
   margin: 0;
 `;
 

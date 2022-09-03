@@ -14,7 +14,7 @@ const IndexPage = () => {
   return (
     <div>
       <Head>
-        <title>Blockchain</title>
+        <title>Captivators</title>
       </Head>
       <MastHead executeScroll={executeScroll} />
       <div ref={introRef}>

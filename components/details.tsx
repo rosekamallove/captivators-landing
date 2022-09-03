@@ -2,6 +2,7 @@ import Image from "next/image";
 import React from "react";
 import roseImage from "../public/images/rose_photo.jpg";
 import BlockChainApplication from "./blockchain-application";
+import ClubLeads from "./clubLeads";
 import {
   DetailBackground,
   DetailContainer,
@@ -13,7 +14,7 @@ import { Tile, TileBackground, TileContent, TileWrapper } from "./tile";
 
 const Details: React.FC = () => {
   return (
-    <TileWrapper numOfPages={6}>
+    <TileWrapper numOfPages={4}>
       <TileBackground>
         <DetailBackground />
       </TileBackground>
@@ -23,94 +24,53 @@ const Details: React.FC = () => {
           renderContent={({ progress }) => (
             <DetailContainer>
               <DetailLeft progress={progress}>
-                <div className="text-4xl font-bold lg:text-5xl">
-                  Working of Blockchain
+                <div className="text-center text-4xl font-bold text-black lg:text-8xl">
+                  <h1 className="mb-8 text-[5rem]">{"🧑‍💻"}</h1>
+                  <h1 className="mb-4 font-['Oswald']">
+                    <span className="text-indigo-700">C</span>odeZen
+                  </h1>
+                  <p className="text-xl font-medium text-gray-600">
+                    Coding Club
+                  </p>
                 </div>
               </DetailLeft>
               <DetailRight progress={progress}>
-                <p className="z-10 py-2 pt-10 text-xl  text-black">
-                  The goal of blockchain is to allow digital information to be
-                  recorded and distributed, but not edited. In this way, a
-                  blockchain is the foundation for immutable ledgers, or records
-                  of transactions that cannot be altered, deleted, or destroyed.
-                  This is why blockchains are also known as a{" "}
-                  <DetailLink href="https://www.investopedia.com/terms/d/distributed-ledger-technology-dlt.asp">
-                    distributed ledger technology (DLT).
-                  </DetailLink>
+                <p className="mb-3 text-xl text-gray-700">
+                  Coding is the process of transforming ideas, solutions and
+                  instructions into the language that computer can understand.
                 </p>
-                <p className="text-xl  text-black">
-                  First proposed as a research project in 1991, the blockchain
-                  concept predated its first widespread application in use:
-                  Bitcoin, in 2009. In the years since, the use of blockchains
-                  has exploded via the creation of various{" "}
-                  <DetailLink href="https://www.investopedia.com/terms/c/cryptocurrency.asp">
-                    cryptocurrencies
-                  </DetailLink>
-                  ,
-                  <DetailLink href="investopedia.com/decentralized-finance-defi-5113835">
-                    decentralized finance (DeFi)
-                  </DetailLink>{" "}
-                  applications,{" "}
-                  <DetailLink href="investopedia.com/non-fungible-tokens-nft-5115211">
-                    non-fungible tokens (NFTs)
-                  </DetailLink>
-                  , and smart contracts.
+                <p className="mb-3 text-xl text-gray-700">
+                  Coding club helps members gain in depth knowledge of coding.
                 </p>
-              </DetailRight>
-            </DetailContainer>
-          )}
-        />
-        <Tile
-          page={1}
-          renderContent={({ progress }) => (
-            <DetailContainer>
-              <DetailLeft progress={progress}>
-                <div className="text-4xl font-bold lg:text-5xl">
-                  The Problem
-                </div>
-              </DetailLeft>
-              <DetailRight progress={progress}>
-                <p className="z-10 py-2 pt-10 text-xl  text-black">
-                  Imagine that a company owns a server farm with 10,000
-                  computers used to maintain a database holding all of its
-                  client’s account information. This company owns a warehouse
-                  building that contains all of these computers under one roof
-                  and has full control of each of these computers and all of the
-                  information contained within them. This, however, provides a
-                  single point of failure. What happens if the electricity at
-                  that location goes out? What if its Internet connection is
-                  severed? What if it burns to the ground? What if a bad actor
-                  erases everything with a single keystroke? In any case, the
-                  data is lost or corrupted.
+                <p className="mb-3 text-xl text-gray-700">
+                  It is a platform where students with different interests such
+                  as coding, app development, machine learning and web designing
+                  come up to enhance their knowledge.
                 </p>
-              </DetailRight>
-            </DetailContainer>
-          )}
-        />
-        <Tile
-          page={2}
-          renderContent={({ progress }) => (
-            <DetailContainer>
-              <DetailLeft progress={progress}>
-                <div className="text-4xl font-bold lg:text-5xl">
-                  The Decentralized Solution
-                </div>
-              </DetailLeft>
-              <DetailRight progress={progress}>
-                <p className="z-10 py-2 pt-10 text-xl  text-black">
-                  What a blockchain does is to allow the data held in that
-                  database to be spread out among several network nodes at
-                  various locations. This not only creates redundancy but also
-                  maintains the fidelity of the data stored therein—if somebody
-                  tries to alter a record at one instance of the database, the
-                  other nodes would not be altered and thus would prevent a bad
-                  actor from doing so. If one user tampers with Bitcoin’s record
-                  of transactions, all other nodes would cross-reference each
-                  other and easily pinpoint the node with the incorrect
-                  information. This system helps to establish an exact and
-                  transparent order of events. This way, no single node within
-                  the network can alter information held within it.
-                </p>
+                <ClubLeads
+                  clubLeads={[
+                    {
+                      name: "Rose Kamal Love",
+                      position: "CS&IT 3rd Yr",
+                      avatar: "/images/RoseKamalLove.jpeg",
+                    },
+                    {
+                      name: "Yash Kumar Mishra",
+                      position: "CS&IT 3rd Yr",
+                      avatar: "/images/YashKumarMishra.jpg",
+                    },
+                    {
+                      name: "Niharika Shakya",
+                      position: "CS&IT 3rd Yr",
+                      avatar: "/images/NiharikaShakya.jpg",
+                    },
+                    {
+                      name: "Nishith Pandey",
+                      position: "CS&IT 2nd Yr",
+                      avatar: "/images/NishithPandey.jpg",
+                    },
+                  ]}
+                />
               </DetailRight>
             </DetailContainer>
           )}
@@ -120,106 +80,137 @@ const Details: React.FC = () => {
           renderContent={({ progress }) => (
             <DetailContainer>
               <DetailLeft progress={progress}>
-                <div className="text-4xl font-bold lg:text-5xl">
-                  Transparency
-                </div>
-              </DetailLeft>
-              <DetailRight progress={progress}>
-                <p className="z-10 py-2 pt-10 text-xl  text-black">
-                  Because of the decentralized nature of Bitcoin’s blockchain,
-                  all transactions can be transparently viewed by either having
-                  a personal node or using{" "}
-                  <DetailLink href="https://www.blockchain.com/explorer?utm_campaign=dcomnav_explorer">
-                    blockchain explorers
-                  </DetailLink>{" "}
-                  that allow anyone to see transactions occurring live. Each
-                  node has its own copy of the chain that gets updated as fresh
-                  blocks are confirmed and added. This means that if you wanted
-                  to, you could track Bitcoin wherever it goes.
-                </p>
-                <p className="py-2 pt-10 text-xl  text-black">
-                  For example, exchanges have been hacked in the past, where
-                  those who kept Bitcoin on the exchange lost everything. While
-                  the hacker may be entirely anonymous, the Bitcoins that they
-                  extracted are easily traceable. If the Bitcoins stolen in some
-                  of these hacks were to be moved or spent somewhere, it would
-                  be known.
-                </p>
-              </DetailRight>
-            </DetailContainer>
-          )}
-        />
-        <Tile
-          page={4}
-          renderContent={({ progress }) => (
-            <DetailContainer>
-              <DetailLeft progress={progress}>
-                <div className="text-4xl font-bold lg:text-5xl">
-                  Applications of Blockchain
-                </div>
-              </DetailLeft>
-              <DetailRight progress={progress}>
-                <div className="md:grid-col-3 mt-10 grid grid-cols-2 gap-5 text-xl text-black lg:grid-cols-3  ">
-                  <BlockChainApplication title={"Money Transfer"} />
-                  <BlockChainApplication title={"Financial Exchange"} />
-                  <BlockChainApplication title={"Lending"} />
-                  <BlockChainApplication title={"Insurance"} />
-                  <BlockChainApplication title={"Real Estate"} />
-                  <BlockChainApplication title={"Voting"} />
-                  <BlockChainApplication title={"Artist Royalties"} />
-                  <BlockChainApplication title={"NFTs"} />
-                  <BlockChainApplication title={"Logistics Tracking"} />
-                  <BlockChainApplication title={"Secure IoT"} />
-                  <BlockChainApplication
-                    title={"Secure personal information"}
-                  />
-                  <BlockChainApplication title={"Government benefits"} />
-                </div>
-              </DetailRight>
-            </DetailContainer>
-          )}
-        />
-        <Tile
-          page={5}
-          renderContent={({ progress }) => (
-            <DetailContainer>
-              <DetailLeft progress={progress}>
-                <div className="text-6xl font-bold lg:text-5xl">About Me</div>
-              </DetailLeft>
-              <DetailRight progress={progress}>
-                <div className="flex w-full  flex-1 flex-col items-center justify-center ">
-                  <Image
-                    src={roseImage}
-                    width={150}
-                    height={150}
-                    alt="profile"
-                    className="rounded-full"
-                  />
-                  <p className="text-4xl font-bold text-black">
-                    <DetailLink href="https://rosekamallove.vercel.app">
-                      Rose Kamal Love
-                    </DetailLink>
+                <div className="text-center text-4xl font-bold text-black lg:text-8xl">
+                  <h1 className="mb-8 text-[5rem]">{"📷"}</h1>
+                  <h1 className="mb-4 font-['Oswald']">
+                    <span className="text-indigo-700">P</span>hotopedia
+                  </h1>
+                  <p className="text-xl font-medium text-gray-600">
+                    Photography Club
                   </p>
                 </div>
-                <p className="py-2  text-xl  text-black">
-                  A friendly ambivert who loves writing code, with a craving to
-                  create music.
+              </DetailLeft>
+              <DetailRight progress={progress}>
+                <p className="z-10 py-2 pt-10 text-xl  text-gray-700">
+                  It is a group of people who focus to imagine, capture and
+                  freeze a moment and create beauty.
                 </p>
-                <p className="py-2  text-xl  text-black">
-                  I am a full-stack developer with experience in the MERN stack
-                  and have also built a backend with Django. I like to Solve
-                  Problems, algorithmic as well as the problems I face while
-                  developing some cool projects like{" "}
-                  <DetailLink href="https://github.com/rosekamallove/youtemy">
-                    <strong>YouTemy</strong>
-                  </DetailLink>{" "}
-                  I also have a knack for Music, I love to listen as well as
-                  create Music{" "}
-                  <DetailLink href="https://soundcloud.com/user-276723683">
-                    (SoundCloud)
-                  </DetailLink>
-                  .
+                <p className="py-2 pt-10 text-xl  text-gray-700">
+                  Students in this club have the opportunity to hove their
+                  skills by understanding and learning about what makes a good
+                  photograph, from composition to artistic expression.
                 </p>
+                <ClubLeads
+                  clubLeads={[
+                    {
+                      name: "Harshit Kumar Singh",
+                      position: "CS&IT 4th Yr",
+                      avatar: "/images/HarshitKumarSingh.jpg",
+                    },
+                    {
+                      name: "Avneesh Kumar",
+                      position: "CS&IT 3rd Yr",
+                      avatar: "/images/AvneeshKumar.jpg",
+                    },
+                    {
+                      name: "Aditi Mishra",
+                      position: "CS&IT 3rd Yr",
+                      avatar: "/images/AditiMishra.jpg",
+                    },
+                  ]}
+                />
+              </DetailRight>
+            </DetailContainer>
+          )}
+        />
+        <Tile
+          page={1}
+          renderContent={({ progress }) => (
+            <DetailContainer>
+              <DetailLeft progress={progress}>
+                <div className="text-center text-4xl font-bold text-black lg:text-8xl">
+                  <h1 className="mb-8 text-[5rem]">{"🖌️"}</h1>
+                  <h1 className="mb-4 font-['Oswald']">
+                    <span className="text-indigo-700">A</span>rtisticDots
+                  </h1>
+                  <p className="text-xl font-medium text-gray-600">Arts Club</p>
+                </div>
+              </DetailLeft>
+              <DetailRight progress={progress}>
+                <p className="z-10 py-2 pt-10 text-xl  text-gray-700">
+                  The main motivation behind formation of this club is to
+                  provide every member with the opportunity to learn and develop
+                  a deeper understanding of art, craft and culture through
+                  activities, performances and listening.
+                </p>
+                <p className="z-10 py-2 pt-10 text-xl  text-gray-700">
+                  Art brings different people together and culture helps
+                  appreciate each other with their diversity.
+                </p>
+                <ClubLeads
+                  clubLeads={[
+                    {
+                      name: "Sakshi Agarwal",
+                      position: "CS&IT 3rd Yr",
+                      avatar: "/images/SakshiAgarwal.jpg",
+                    },
+                    {
+                      name: "Niharika Shakya",
+                      position: "CS&IT 3rd Yr",
+                      avatar: "/images/NiharikaShakya.jpg",
+                    },
+                    {
+                      name: "Utkarsh Gupta",
+                      position: "CS&IT 3rd Yr",
+                      avatar: "/images/UtkarshGupta.jpg",
+                    },
+                  ]}
+                />
+              </DetailRight>
+            </DetailContainer>
+          )}
+        />
+        <Tile
+          page={2}
+          renderContent={({ progress }) => (
+            <DetailContainer>
+              <DetailLeft progress={progress}>
+                <div className="text-center text-4xl font-bold text-black lg:text-8xl">
+                  <h1 className="mb-8 text-[5rem]">{"🫂"}</h1>
+                  <h1 className="mb-4 font-['Oswald']">
+                    <span className="text-indigo-700">S</span>ocializeLives
+                  </h1>
+                  <p className="text-xl font-medium text-gray-600">
+                    Social Club
+                  </p>
+                </div>
+              </DetailLeft>
+              <DetailRight progress={progress}>
+                <p className="z-10 py-2 pt-10 text-xl  text-gray-700">
+                  Through this club we sensitize students to develop social
+                  values, widespread their responsibilities and knowledge in
+                  societal issues and problems by making them to involve with
+                  the community people.
+                </p>
+                <ClubLeads
+                  clubLeads={[
+                    {
+                      name: "Harshit Kumar Singh",
+                      position: "CS&IT 4th Yr",
+                      avatar: "/images/HarshitKumarSingh.jpg",
+                    },
+                    {
+                      name: "Nishith Pandey",
+                      position: "CS&IT 2nd Yr",
+                      avatar: "/images/NishithPandey.jpg",
+                    },
+                    {
+                      name: "Aditi Mishra",
+                      position: "CS&IT 3rd Yr",
+                      avatar: "/images/AditiMishra.jpg",
+                    },
+                  ]}
+                />
               </DetailRight>
             </DetailContainer>
           )}

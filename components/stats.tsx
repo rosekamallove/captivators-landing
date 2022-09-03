@@ -33,32 +33,41 @@ const Stats: React.FC = () => {
       <div className="mx-auto flex min-h-screen max-w-5xl flex-col  items-center justify-center px-10 py-24  text-4xl font-semibold md:py-28 md:text-6xl lg:px-20 lg:py-36 lg:text-7xl">
         <div className="leading-[1.15]">
           <span
-            className={`${s.statsText} inline-block`}
+            className={`${s.statsText} mb-4 inline-block font-medium`}
             style={{ opacity: opacityForBlock(progress, 0) }}
           >
             Joining a club or a society will enable you to connect to a{" "}
-            <strong>peer group</strong> who shares similar interests as you.{" "}
+            <strong className="text-indigo-500">peer group</strong> who shares
+            similar interests as you.{" "}
           </span>
           <span
-            className={`${s.statsText} inline-block`}
+            className={`${s.statsText} mb-4 inline-block font-medium`}
             style={{ opacity: opacityForBlock(progress, 1) }}
           >
             You will get an insight into other countries{" "}
-            <strong>culture, values, thinking process and views</strong>
+            <strong className="text-indigo-500">culture</strong>,{" "}
+            <strong className="text-indigo-500">values</strong>,{" "}
+            <strong className="text-indigo-500">
+              thinking process and views
+            </strong>
+            .
           </span>
           <span
-            className={`${s.statsText} inline-block`}
+            className={`${s.statsText} mb-4 inline-block font-medium`}
             style={{ opacity: opacityForBlock(progress, 2) }}
           >
             Being a part of a club or a society helps you to gain{" "}
-            <strong>knowledge, skills and experience</strong>
+            <strong className="text-indigo-500">knowledge</strong>,{" "}
+            <strong className="text-indigo-500">skills</strong>,{" and "}
+            <strong className="text-indigo-500">experience</strong>.
           </span>
           <span
-            className={`${s.statsText} inline-block`}
+            className={`${s.statsText} mb-4 inline-block font-medium`}
             style={{ opacity: opacityForBlock(progress, 3) }}
           >
             You will undoubtedly learn new skills. In a diverse group, you will
-            be able to experience <strong>personal growth</strong>.
+            be able to experience{" "}
+            <strong className="text-indigo-500">personal growth</strong>.
           </span>
         </div>
       </div>

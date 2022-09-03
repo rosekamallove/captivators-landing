@@ -3,9 +3,9 @@ import styled, { keyframes } from "styled-components";
 const BlobAnimation: React.FC = () => {
   return (
     <div>
-      <Blob />
-      <Blob2 />
-      <Blob3 />
+      <Blob className="hidden lg:block" />
+      <Blob2 className="hidden lg:block" />
+      <Blob3 className="hidden lg:block" />
     </div>
   );
 };
