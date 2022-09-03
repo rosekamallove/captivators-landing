@@ -24,7 +24,7 @@ export default function Card() {
         </RowWrapper>
         <button
           type="button"
-          className="mt-5 mr-2 mb-2 rounded-lg bg-gradient-to-br from-purple-600 to-blue-500 px-5 py-2.5 text-center text-lg font-medium text-white transition-all hover:bg-gradient-to-bl focus:outline-none focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-800"
+          className="mt-5 mr-2 rounded-lg bg-gradient-to-br from-purple-600 to-blue-500 px-5 py-2.5 text-center text-lg font-medium text-white transition-all hover:bg-gradient-to-bl focus:outline-none focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-800"
         >
           Get Started Now
         </button>
@@ -40,14 +40,13 @@ const Wrapper = styled.div`
   gap: 20px;
   max-width: 600px;
   width: 100%;
-  height: 500px;
   padding: 20px;
   background: rgba(15, 14, 71, 0.3);
   box-shadow: 0px 30px 60px rgba(0, 0, 0, 0.25),
     inset 0 0 0 0.5px rgba(255, 255, 255, 0.2);
   border-radius: 20px;
   backdrop-filter: blur(40px);
-  margin: 0 auto;
+  margin: 4rem auto;
 `;
 
 const RowWrapper = styled.div`

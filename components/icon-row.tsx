@@ -9,8 +9,10 @@ export default function IconRow(props) {
         <Number>{number}</Number>
       </NumberWrapper>
       <TextWrapper>
-        <Title className="text-lg sm:text-xl md:text-2xl">{title}</Title>
-        <Description className="text-base sm:text-lg md:text-xl">
+        <Title className="font-['Oswald'] text-2xl font-semibold sm:text-2xl md:text-4xl">
+          {title}
+        </Title>
+        <Description className="text-lg sm:text-xl md:text-2xl">
           {subtitle}
         </Description>
       </TextWrapper>
@@ -61,6 +63,7 @@ const TextWrapper = styled.div`
   display: grid;
   grid-gap: 8px;
   align-self: center;
+  padding-left: 1rem;
 `;
 
 const Title = styled.p`

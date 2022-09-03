@@ -15,10 +15,12 @@ const Intro: React.FC = () => {
           <Wave />
           <StaticBlobs />
         </WaveWrapper>
-        <h2 className="py-24 text-center text-4xl font-semibold sm:text-4xl lg:text-6xl">
-          Our Clubs
-        </h2>
-        <ClubCard />
+        <div className="w-ful flex h-full flex-col items-center justify-evenly">
+          <h2 className="text-center text-4xl font-semibold sm:text-4xl lg:text-6xl">
+            Our Clubs
+          </h2>
+          <ClubCard />
+        </div>
       </Wrapper>
     </section>
   );

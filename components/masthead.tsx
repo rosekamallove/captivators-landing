@@ -21,8 +21,6 @@ const MastHead: React.FC<Props> = ({ executeScroll }) => {
     progress = Math.min(1, scrollY / elContainer.clientHeight);
   }
 
-  console.log(progress);
-
   return (
     <div
       ref={refContainer}
