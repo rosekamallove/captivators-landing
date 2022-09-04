@@ -15,7 +15,7 @@ const Footer = () => {
     "https://instagram.com/captivators_csit?igshid=YmMyMTA2M2Y=";
   return (
     <div className="relative w-full bg-[#080424]">
-      <div className="h-8 w-full bg-gradient-to-b from-indigo-900 to-[#080424]"></div>
+      <div className="h-8 w-full bg-gradient-to-b from-[#17026d] to-[#080424]"></div>
       <div className="flex w-full flex-col items-center justify-evenly gap-y-3 p-4 text-white md:flex-row md:items-start">
         <img
           src="/images/logo-w.png"
