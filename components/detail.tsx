@@ -10,12 +10,12 @@ export const DetailContainer: React.FC<{ children: ReactNode }> = ({
 );
 
 export const DetailBackground: React.FC = () => (
-  <div className="sticky top-0 grid min-h-screen w-full  grid-cols-1 bg-indigo-200 lg:grid-cols-2">
-    <div className="h-[30vh] bg-indigo-200 lg:h-auto"></div>
-    <div className="relative flex h-[70vh] items-center justify-center bg-indigo-200 lg:min-h-screen">
-      <div className="absolute top-40 left-24 h-[12rem] w-[12rem] animate-blob rounded-full bg-purple-500/40 blur-xl filter md:h-[24rem] md:w-[24rem]"></div>
-      <div className="animation-delay-2000 absolute right-32 h-[12rem] w-[12rem] animate-blob rounded-full bg-yellow-500/40 blur-xl filter md:h-[24rem] md:w-[24rem]"></div>
-      <div className="animation-delay-4000 absolute bottom-32 left-32 h-[12rem] w-[12rem] animate-blob rounded-full bg-pink-500/40 blur-xl filter md:h-[24rem] md:w-[24rem]"></div>
+  <div className="sticky top-0 grid min-h-screen w-full  grid-cols-1 bg-indigo-900 lg:grid-cols-2">
+    <div className="h-[30vh] bg-indigo-900 lg:h-auto"></div>
+    <div className="relative flex h-[70vh] items-center justify-center bg-indigo-900 lg:min-h-screen">
+      <div className="absolute top-40 left-24 h-[12rem] w-[12rem] animate-blob rounded-full bg-blue-300/40 blur-2xl filter md:h-[24rem] md:w-[24rem]"></div>
+      <div className="animation-delay-2000 absolute right-32 h-[12rem] w-[12rem] animate-blob rounded-full bg-emerald-300/40 blur-2xl filter md:h-[24rem] md:w-[24rem]"></div>
+      <div className="animation-delay-4000 absolute bottom-32 left-32 h-[12rem] w-[12rem] animate-blob rounded-full bg-purple-300/40 blur-2xl filter md:h-[24rem] md:w-[24rem]"></div>
     </div>
   </div>
 );
@@ -51,7 +51,7 @@ export const DetailRight: React.FC<{
         transform: `translateY(${translateY}px)`,
       }}
     >
-      <div className="w-full max-w-xl rounded-3xl border border-gray-100/30 bg-gradient-to-br from-white/20 to-indigo-100/20 p-8 px-10 pt-5 backdrop-blur-2xl lg:pt-10">
+      <div className="flex h-[40rem] w-full max-w-xl flex-col justify-center rounded-3xl border border-white/20 bg-[#0F0E47]/30 p-8 px-10 pt-5 backdrop-blur-2xl lg:pt-10">
         {children}
       </div>
     </div>
