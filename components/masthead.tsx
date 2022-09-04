@@ -29,16 +29,14 @@ const MastHead: React.FC<Props> = ({ executeScroll }) => {
       } top-0 -z-10 h-auto w-full overflow-hidden`}
       style={{ transform: `translateY(-${progress * 20}vh)` }}
     >
-      <Wrapper>
+      <Wrapper className="flex h-screen w-full flex-col items-center justify-evenly gap-8 p-4">
         <Background />
         <WaveWrapper>
           <Wave />
           <BlobAnimation />
         </WaveWrapper>
         <TextSection />
-        <div className="-translate-y-20">
-          <Card />
-        </div>
+        <Card />
       </Wrapper>
     </div>
   );
@@ -52,10 +50,6 @@ const Wrapper = styled.div`
 const WaveWrapper = styled.div`
   position: relative;
   top: 200px;
-`;
-
-const CardWrapper = styled.div`
-  padding: 0 0px;
 `;
 
 export default MastHead;
