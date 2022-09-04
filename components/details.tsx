@@ -24,25 +24,27 @@ const Details: React.FC = () => {
           renderContent={({ progress }) => (
             <DetailContainer>
               <DetailLeft progress={progress}>
-                <div className="text-center text-4xl font-bold text-black lg:text-8xl">
-                  <h1 className="mb-8 text-[5rem]">{"🧑‍💻"}</h1>
-                  <h1 className="mb-4 font-['Oswald']">
-                    <span className="text-indigo-700">C</span>odeZen
+                <div className="text-center text-4xl font-bold text-gray-100 lg:text-8xl">
+                  <h1 className="mb-2 text-[2rem] sm:mb-8 sm:text-[5rem] md:drop-shadow-[5px_0px_0px_#3fffc699]">
+                    {"🧑‍💻"}
                   </h1>
-                  <p className="text-xl font-medium text-gray-600">
+                  <h1 className="mb-2 font-['Oswald'] sm:mb-4 md:drop-shadow-[5px_0px_0px_#3fffc699]">
+                    CodeZen
+                  </h1>
+                  <p className="text-xl font-medium text-gray-300">
                     Coding Club
                   </p>
                 </div>
               </DetailLeft>
               <DetailRight progress={progress}>
-                <p className="mb-3 text-xl text-gray-700">
+                <p className="mb-2 text-base text-gray-100 sm:mb-4 sm:text-xl">
                   Coding is the process of transforming ideas, solutions and
                   instructions into the language that computer can understand.
                 </p>
-                <p className="mb-3 text-xl text-gray-700">
+                <p className="mb-1 hidden text-base text-gray-100 sm:mb-2 sm:block sm:text-xl">
                   Coding club helps members gain in depth knowledge of coding.
                 </p>
-                <p className="mb-3 text-xl text-gray-700">
+                <p className="mb-2 text-base text-gray-100 sm:mb-4 sm:text-xl">
                   It is a platform where students with different interests such
                   as coding, app development, machine learning and web designing
                   come up to enhance their knowledge.
@@ -80,22 +82,24 @@ const Details: React.FC = () => {
           renderContent={({ progress }) => (
             <DetailContainer>
               <DetailLeft progress={progress}>
-                <div className="text-center text-4xl font-bold text-black lg:text-8xl">
-                  <h1 className="mb-8 text-[5rem]">{"📷"}</h1>
-                  <h1 className="mb-4 font-['Oswald']">
-                    <span className="text-indigo-700">P</span>hotopedia
+                <div className="text-center text-4xl font-bold text-gray-100 lg:text-8xl">
+                  <h1 className="mb-2 text-[2rem] sm:mb-8 sm:text-[5rem] md:drop-shadow-[5px_0px_0px_#3fffc699]">
+                    {"📷"}
                   </h1>
-                  <p className="text-xl font-medium text-gray-600">
+                  <h1 className="mb-2 font-['Oswald'] sm:mb-4 md:drop-shadow-[5px_0px_0px_#3fffc699]">
+                    Photopedia
+                  </h1>
+                  <p className="text-xl font-medium text-gray-300">
                     Photography Club
                   </p>
                 </div>
               </DetailLeft>
               <DetailRight progress={progress}>
-                <p className="z-10 py-2 pt-10 text-xl  text-gray-700">
+                <p className="mb-2 text-base text-gray-100 sm:mb-4 sm:text-xl">
                   It is a group of people who focus to imagine, capture and
                   freeze a moment and create beauty.
                 </p>
-                <p className="py-2 pt-10 text-xl  text-gray-700">
+                <p className="mb-2 text-base text-gray-100 sm:mb-4 sm:text-xl">
                   Students in this club have the opportunity to hove their
                   skills by understanding and learning about what makes a good
                   photograph, from composition to artistic expression.
@@ -128,22 +132,24 @@ const Details: React.FC = () => {
           renderContent={({ progress }) => (
             <DetailContainer>
               <DetailLeft progress={progress}>
-                <div className="text-center text-4xl font-bold text-black lg:text-8xl">
-                  <h1 className="mb-8 text-[5rem]">{"🖌️"}</h1>
-                  <h1 className="mb-4 font-['Oswald']">
-                    <span className="text-indigo-700">A</span>rtisticDots
+                <div className="text-center text-4xl font-bold text-gray-100 lg:text-8xl">
+                  <h1 className="mb-2 text-[2rem] sm:mb-8 sm:text-[5rem] md:drop-shadow-[5px_0px_0px_#3fffc699]">
+                    {"🖌️"}
                   </h1>
-                  <p className="text-xl font-medium text-gray-600">Arts Club</p>
+                  <h1 className="mb-2 font-['Oswald'] sm:mb-4 md:drop-shadow-[5px_0px_0px_#3fffc699]">
+                    ArtisticDots
+                  </h1>
+                  <p className="text-xl font-medium text-gray-300">Arts Club</p>
                 </div>
               </DetailLeft>
               <DetailRight progress={progress}>
-                <p className="z-10 py-2 pt-10 text-xl  text-gray-700">
+                <p className="mb-2 text-base text-gray-100 sm:mb-4 sm:text-xl">
                   The main motivation behind formation of this club is to
                   provide every member with the opportunity to learn and develop
                   a deeper understanding of art, craft and culture through
                   activities, performances and listening.
                 </p>
-                <p className="z-10 py-2 pt-10 text-xl  text-gray-700">
+                <p className="mb-2 text-base text-gray-100 sm:mb-4 sm:text-xl">
                   Art brings different people together and culture helps
                   appreciate each other with their diversity.
                 </p>
@@ -175,18 +181,20 @@ const Details: React.FC = () => {
           renderContent={({ progress }) => (
             <DetailContainer>
               <DetailLeft progress={progress}>
-                <div className="text-center text-4xl font-bold text-black lg:text-8xl">
-                  <h1 className="mb-8 text-[5rem]">{"🫂"}</h1>
-                  <h1 className="mb-4 font-['Oswald']">
-                    <span className="text-indigo-700">S</span>ocializeLives
+                <div className="text-center text-4xl font-bold text-gray-100 lg:text-8xl">
+                  <h1 className="mb-2 text-[2rem] sm:mb-8 sm:text-[5rem] md:drop-shadow-[5px_0px_0px_#3fffc699]">
+                    {"🫂"}
                   </h1>
-                  <p className="text-xl font-medium text-gray-600">
+                  <h1 className="mb-2 font-['Oswald'] sm:mb-4 md:drop-shadow-[5px_0px_0px_#3fffc699]">
+                    SocializeLives
+                  </h1>
+                  <p className="text-xl font-medium text-gray-300">
                     Social Club
                   </p>
                 </div>
               </DetailLeft>
               <DetailRight progress={progress}>
-                <p className="z-10 py-2 pt-10 text-xl  text-gray-700">
+                <p className="mb-2 text-base text-gray-100 sm:mb-4 sm:text-xl">
                   Through this club we sensitize students to develop social
                   values, widespread their responsibilities and knowledge in
                   societal issues and problems by making them to involve with

@@ -1,7 +1,7 @@
 import Head from "next/head";
 import { useRef } from "react";
 import Details from "../components/details";
-import Footer from "../components/Footer";
+import Footer from "../components/footer";
 import Intro from "../components/intro";
 import MastHead from "../components/masthead";
 import Stats from "../components/stats";
