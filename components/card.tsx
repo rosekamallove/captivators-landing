@@ -3,7 +3,7 @@ import Row from "./row";
 
 export default function Card() {
   return (
-    <div className="w-full p-4">
+    <div className="w-full p-4 text-xs md:text-base">
       <Wrapper>
         <RowWrapper>
           <Row
@@ -24,7 +24,7 @@ export default function Card() {
         </RowWrapper>
         <button
           type="button"
-          className="mt-5 mr-2 rounded-lg bg-gradient-to-br from-purple-600 to-blue-500 px-5 py-2.5 text-center text-lg font-medium text-white transition-all hover:bg-gradient-to-bl focus:outline-none focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-800"
+          className="mt-5 mr-2 rounded-lg bg-gradient-to-br from-purple-600 to-blue-500 px-5 py-2.5 text-center text-xs md:text-lg font-medium text-white transition-all hover:bg-gradient-to-bl focus:outline-none focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-800"
         >
           Get Started Now
         </button>
