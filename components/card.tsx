@@ -4,7 +4,7 @@ import Row from "./row";
 export default function Card() {
   const registrationFormUrl = "https://forms.gle/yrezr2qnFE6Qq3XLA";
   return (
-    <div className="w-full p-4 text-xs md:text-base">
+    <div className="text-xs md:text-base">
       <Wrapper>
         <RowWrapper>
           <Row
@@ -49,7 +49,6 @@ const Wrapper = styled.div`
     inset 0 0 0 0.5px rgba(255, 255, 255, 0.2);
   border-radius: 20px;
   backdrop-filter: blur(40px);
-  margin: 4rem auto;
 `;
 
 const RowWrapper = styled.div`
