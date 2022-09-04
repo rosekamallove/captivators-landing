@@ -114,7 +114,7 @@ const Details: React.FC = () => {
                     },
                     {
                       name: "Aditi Mishra",
-                      position: "CS&IT 3rd Yr",
+                      position: "CS&IT 2nd Yr",
                       avatar: "/images/AditiMishra.jpg",
                     },
                   ]}
@@ -206,7 +206,7 @@ const Details: React.FC = () => {
                     },
                     {
                       name: "Aditi Mishra",
-                      position: "CS&IT 3rd Yr",
+                      position: "CS&IT 2nd Yr",
                       avatar: "/images/AditiMishra.jpg",
                     },
                   ]}

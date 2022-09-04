@@ -2,6 +2,12 @@ import React from "react";
 import { FaFacebook, FaInstagram, FaLinkedin } from "react-icons/fa";
 
 const Footer = () => {
+  const footerHeadingClass = "text-lg font-bold md:text-lg lg:text-3xl";
+  const footerParagraphClass =
+    "text-sm md:text-base lg:text-lg text-white hover:no-underline";
+  const footerContentWrapper =
+    "flex flex-col items-center gap-y-2 md:items-start m-2";
+
   const linkedinUrl =
     "https://www.linkedin.com/in/captivators-csit-club-380b2324a/";
   const facebookUrl = "https://www.facebook.com/profile.php?id=100085247440991";
@@ -10,23 +16,27 @@ const Footer = () => {
   return (
     <div className="relative w-full bg-[#080424]">
       <div className="h-8 w-full bg-gradient-to-b from-indigo-200 to-[#080424]"></div>
-      <div className="flex w-full items-start justify-evenly p-4 text-white">
-        <img src="/images/logo-w.png" alt="" className="h-40 w-40" />
-        <div className="flex flex-col items-start gap-y-2">
-          <h2 className="mb-2 text-4xl font-bold">CONTACT US</h2>
-          <p className="text-xl">club.csitmjpru@gmail.com</p>
+      <div className="flex w-full flex-col items-center justify-evenly gap-y-3 p-4 text-white md:flex-row md:items-start">
+        <img
+          src="/images/logo-w.png"
+          alt=""
+          className="m-2 h-24 w-24 md:h-40 md:w-40"
+        />
+        <div className={footerContentWrapper}>
+          <h2 className={footerHeadingClass}>CONTACT US</h2>
+          <p className={footerParagraphClass}>club.csitmjpru@gmail.com</p>
         </div>
-        <div className="flex flex-col items-start gap-y-2">
-          <h2 className="mb-2 text-4xl font-bold">LINKS</h2>
+        <div className={footerContentWrapper}>
+          <h2 className={footerHeadingClass}>LINKS</h2>
           <a
-            className="text-xl text-white hover:no-underline"
+            className={footerParagraphClass}
             href="https://www.mjpru.ac.in/"
             target="_blank"
           >
             MJPRU University Website
           </a>
         </div>
-        <p className="text-sm opacity-80">
+        <p className="text-xs opacity-80 md:text-sm">
           © 2022 Captivators, MJPRU, Bareilly - All Rights Reserved.
         </p>
       </div>
