@@ -67,7 +67,7 @@ export const DetailLink: React.FC<LinkProps> = ({ href, children }) => {
   return (
     <Link href={href}>
       <a
-        className="text-black underline decoration-1 underline-offset-8"
+        className="text-black underline decoration-1 underline-offset-8 hover:no-underline"
         target="_blank"
         rel="noreferrer"
       >
