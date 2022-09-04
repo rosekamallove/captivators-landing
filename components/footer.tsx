@@ -25,6 +25,10 @@ const Footer = () => {
         <div className={footerContentWrapper}>
           <h2 className={footerHeadingClass}>CONTACT US</h2>
           <p className={footerParagraphClass}>club.csitmjpru@gmail.com</p>
+          <p className={footerParagraphClass}>+91-8534833926</p>
+          <p className={footerParagraphClass}>Harshit Kumar Singh (Student Incharge)</p>
+          <p className={footerParagraphClass}>Department Of CSIT, <br></br>Mahatma Jyotiba Phule Rohilkhand University,<br></br> Bareilly, Uttar Pradesh Pincode:-243006</p>
+          
         </div>
         <div className={footerContentWrapper}>
           <h2 className={footerHeadingClass}>LINKS</h2>
@@ -33,7 +37,7 @@ const Footer = () => {
             href="https://www.mjpru.ac.in/"
             target="_blank"
           >
-            MJPRU University Website
+            Official Website Of MJPRU
           </a>
         </div>
         <p className="text-xs opacity-80 md:text-sm">
