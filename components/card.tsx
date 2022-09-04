@@ -2,6 +2,7 @@ import styled from "styled-components";
 import Row from "./row";
 
 export default function Card() {
+  const registrationFormUrl = "https://forms.gle/yrezr2qnFE6Qq3XLA";
   return (
     <div className="w-full p-4 text-xs md:text-base">
       <Wrapper>
@@ -22,12 +23,14 @@ export default function Card() {
             subtitle="And of course, it is a great experience to put on your CV. After your graduation, when you apply for jobs, you will stand out amongst your peers. Your academic scores won't stand out alone. You need extra-curricular to decorate your CV"
           />
         </RowWrapper>
-        <button
+        <a
+          href={registrationFormUrl}
+          target="_blank"
           type="button"
-          className="mt-5 mr-2 rounded-lg bg-gradient-to-br from-purple-600 to-blue-500 px-5 py-2.5 text-center text-xs md:text-lg font-medium text-white transition-all hover:bg-gradient-to-bl focus:outline-none focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-800"
+          className="mt-5 mr-2 rounded-lg bg-gradient-to-br from-purple-600 to-blue-500 px-5 py-2.5 text-center text-xs font-medium text-white transition-all hover:bg-gradient-to-bl focus:outline-none focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-800 md:text-lg"
         >
           Get Started Now
-        </button>
+        </a>
       </Wrapper>
     </div>
   );
