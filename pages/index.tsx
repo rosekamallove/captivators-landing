@@ -14,7 +14,8 @@ const IndexPage = () => {
   return (
     <div>
       <Head>
-        <title>Blockchain</title>
+        <title>Captivators</title>
+        <link rel="shortcut icon" href="/images/favicon.ico" />
       </Head>
       <MastHead executeScroll={executeScroll} />
       <div ref={introRef}>

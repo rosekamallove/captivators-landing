@@ -1,10 +1,9 @@
-
 import styled, { keyframes } from "styled-components";
 
 const StaticBlobs: React.FC = () => {
   return (
     <div>
-      <Blob />
+      <Blob className="hidden lg:block" />
     </div>
   );
 };
@@ -20,7 +19,6 @@ const move = keyframes`
     border-radius: 76% 24% 33% 67% / 68% 55% 45% 32%;
   }
 `;
-
 
 const Blob = styled.div`
   position: absolute;

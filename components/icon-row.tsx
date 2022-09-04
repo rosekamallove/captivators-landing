@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export default function IconRow(props) {
-  const { number, title, icon, subtitle } = props;
+  const { number, title, subtitle } = props;
 
   return (
     <Wrapper>
@@ -9,9 +9,12 @@ export default function IconRow(props) {
         <Number>{number}</Number>
       </NumberWrapper>
       <TextWrapper>
-        <Icon>{icon}</Icon>
-        <Title>{title}</Title>
-        <Description>{subtitle}</Description>
+        <Title className="font-['Oswald'] text-2xl font-semibold sm:text-2xl md:text-4xl">
+          {title}
+        </Title>
+        <Description className="text-lg sm:text-xl md:text-2xl">
+          {subtitle}
+        </Description>
       </TextWrapper>
     </Wrapper>
   );
@@ -44,7 +47,6 @@ const Wrapper = styled.div`
 const NumberWrapper = styled.div`
   width: 50px;
   height: 50px;
-  background: rgba(0, 0, 0, 0.2);
   border-radius: 50px;
   display: grid;
   place-content: center;
@@ -54,12 +56,14 @@ const NumberWrapper = styled.div`
 const Number = styled.p`
   text-align: center;
   color: #ffffff;
+  background-color: transparent;
 `;
 
 const TextWrapper = styled.div`
   display: grid;
   grid-gap: 8px;
   align-self: center;
+  padding-left: 1rem;
 `;
 
 const Title = styled.p`
@@ -75,7 +79,7 @@ const Title = styled.p`
 
 const Description = styled.p`
   font-weight: normal;
-  font-size: 80%;
+  font-size: 1rem;
   color: rgba(255, 255, 255, 0.7);
   margin: 0;
   display: -webkit-box;

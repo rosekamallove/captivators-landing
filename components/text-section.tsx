@@ -2,45 +2,24 @@ import styled from "styled-components";
 
 export default function TextSection() {
   return (
-    <Wrapper>
-      <Title>Captivators</Title>
-      <Subtitle>Captivate, what you wished existed</Subtitle>
-      <Description>Captivate your future and lead the technology</Description>
-    </Wrapper>
+    <div className="relative my-0 mx-auto flex flex-col items-center p-8 text-center">
+      <img
+        src="/images/logo.jpeg"
+        alt="captivators-logo"
+        className="mb-8 h-16 w-16 rounded-full sm:mb-16 sm:h-24 sm:w-24"
+      />
+      <h3 className="font-['Oswald'] text-base font-semibold text-indigo-600 sm:text-2xl">
+        DEPARTMENT OF CS&IT
+      </h3>
+      <h1 className="mb-4 font-['Oswald'] text-5xl font-bold text-white sm:mb-8 sm:text-6xl lg:text-8xl">
+        CAPTIVATORS
+      </h1>
+      <h2 className="mb-2 p-0 text-base text-white sm:text-2xl">
+        Captivate, what you wished existed
+      </h2>
+      <h2 className="mb-8 p-0 text-base text-white opacity-70 sm:text-2xl">
+        Captivate your future and lead the technology
+      </h2>
+    </div>
   );
 }
-
-const Wrapper = styled.div`
-  position: relative;
-  display: grid;
-  gap: 20px;
-  text-align: center;
-  margin: 0 auto;
-  padding: 140px 20px;
-`;
-
-const Subtitle = styled.p`
-  color: rgba(255, 255, 255, 0.9);
-  font-style: normal;
-  font-weight: 400;
-  font-size: 40px;
-  line-height: 18px;
-  margin: 0;
-`;
-
-const Title = styled.h1`
-  color: rgba(255, 255, 255, 1);
-  font-style: normal;
-  font-weight: bold;
-  font-size: 82px;
-  margin: 0;
-`;
-
-const Description = styled.p`
-  color: rgba(255, 255, 255, 0.7);
-  font-style: normal;
-  font-weight: normal;
-  font-size: 17px;
-  line-height: 130%;
-  margin: 0;
-`;

@@ -31,7 +31,7 @@ const Wrapper = styled.div`
 
   &,
   * {
-    transition: 0.8s cubic-bezier(0.075, 0.82, 0.165, 1);
+    transition: 1.5s cubic-bezier(0.075, 0.82, 0.165, 1);
   }
 
   :hover {
