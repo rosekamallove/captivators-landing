@@ -9,7 +9,7 @@ export default function TextSection() {
         className="m-0 mb-4 h-16 w-16 rounded-full p-0 sm:h-20 sm:w-20"
       />
       <h3 className="font-['Oswald'] text-base font-semibold text-indigo-600 sm:text-xl">
-        DEPARTMENT OF CS&IT
+        DEPARTMENT OF CSIT
       </h3>
       <h1 className="font-['Oswald'] text-5xl font-bold text-white sm:text-6xl lg:text-6xl">
         CAPTIVATORS
