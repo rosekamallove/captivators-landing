@@ -67,9 +67,9 @@ const Details: React.FC = () => {
                       avatar: "/images/NiharikaShakya.jpg",
                     },
                     {
-                      name: "Nishith Pandey",
-                      position: "CS&IT 2nd Yr",
-                      avatar: "/images/NishithPandey.jpg",
+                      name: "Yuvraj Singh",
+                      position: "CS&IT 3nd Yr",
+                      avatar: "/images/Yuvraj.jpg",
                     },
                   ]}
                 />
