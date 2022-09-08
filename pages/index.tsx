@@ -24,6 +24,7 @@ const IndexPage = () => {
       </div>
       <Intro />
       <Details />
+     
       <Footer />
     </div>
   );
