@@ -62,9 +62,9 @@ const Details: React.FC = () => {
                       avatar: "/images/YashKumarMishra.jpg",
                     },
                     {
-                      name: "Niharika Shakya",
+                      name: "Mridul Sharma",
                       position: "CS&IT 3rd Yr",
-                      avatar: "/images/NiharikaShakya.jpg",
+                      avatar: "/images/Mridul.png",
                     },
                     {
                       name: "Yuvraj Singh",
@@ -117,9 +117,9 @@ const Details: React.FC = () => {
                       avatar: "/images/AvneeshKumar.jpg",
                     },
                     {
-                      name: "Aditi Mishra",
-                      position: "CS&IT 2nd Yr",
-                      avatar: "/images/AditiMishra.jpg",
+                      name: "Shubham Singh",
+                      position: "CS&IT 3rd Yr",
+                      avatar: "/images/Shubham.jpg",
                     },
                   ]}
                 />
@@ -161,9 +161,9 @@ const Details: React.FC = () => {
                       avatar: "/images/SakshiAgarwal.jpg",
                     },
                     {
-                      name: "Niharika Shakya",
-                      position: "CS&IT 3rd Yr",
-                      avatar: "/images/NiharikaShakya.jpg",
+                      name: "Aditi Mishra",
+                      position: "CS&IT 2nd Yr",
+                      avatar: "/images/AditiMishra.jpg",
                     },
                     {
                       name: "Utkarsh Gupta",
@@ -203,19 +203,19 @@ const Details: React.FC = () => {
                 <ClubLeads
                   clubLeads={[
                     {
-                      name: "Harshit Kumar Singh",
-                      position: "CS&IT 4th Yr",
-                      avatar: "/images/HarshitKumarSingh.jpg",
+                      name: "Deepak Rao",
+                      position: "CS&IT 3rd Yr",
+                      avatar: "/images/deepak.jpeg",
                     },
                     {
-                      name: "Nishith Pandey",
+                      name: "Mrittika Chandra",
                       position: "CS&IT 2nd Yr",
-                      avatar: "/images/NishithPandey.jpg",
+                      avatar: "/images/Mrittika.jpg",
                     },
                     {
-                      name: "Aditi Mishra",
-                      position: "CS&IT 2nd Yr",
-                      avatar: "/images/AditiMishra.jpg",
+                      name: "Krishnansh Tiwari",
+                      position: "CS&IT 3rd Yr",
+                      avatar: "/images/Krishnansh.jpeg",
                     },
                   ]}
                 />
