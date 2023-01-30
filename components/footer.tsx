@@ -25,8 +25,10 @@ const Footer = () => {
         <div className={footerContentWrapper}>
           <h2 className={footerHeadingClass}>CONTACT US</h2>
           <p className={footerParagraphClass}>club.csitmjpru@gmail.com</p>
-          <p className={footerParagraphClass}>+91-8534833926</p>
-          <p className={footerParagraphClass}>Harshit Kumar Singh (Student Incharge)</p>
+          <p className={footerParagraphClass}>+91-6397124401</p>
+          <p className={footerParagraphClass}>Yash Kumar Mishra (Student Incharge)</p>
+          <p className={footerParagraphClass}>Harshit Kumar Singh (Founder)</p>
+          <p className={footerParagraphClass}>Aditi Mishra (Co-Founder)</p>
           <p className={footerParagraphClass}>Department Of CSIT, <br></br>Mahatma Jyotiba Phule Rohilkhand University,<br></br> Bareilly, Uttar Pradesh Pincode:-243006</p>
           
         </div>
