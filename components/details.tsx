@@ -108,7 +108,7 @@ const Details: React.FC = () => {
                   clubLeads={[
                     {
                       name: "Harshit Kumar Singh",
-                      position: "CS&IT Pass-Out Yr",
+                      position: "CS&IT Pass-Out",
                       avatar: "/images/HarshitKumarSingh.jpg",
                     },
                     {
