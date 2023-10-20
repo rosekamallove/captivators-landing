@@ -53,22 +53,22 @@ const Details: React.FC = () => {
                   clubLeads={[
                     {
                       name: "Rose Kamal Love",
-                      position: "CS&IT 3rd Yr",
+                      position: "CS&IT 4th Yr",
                       avatar: "/images/RoseKamalLove.jpeg",
                     },
                     {
                       name: "Yash Kumar Mishra",
-                      position: "CS&IT 3rd Yr",
+                      position: "CS&IT 4th Yr",
                       avatar: "/images/YashKumarMishra.jpg",
                     },
                     {
                       name: "Mridul Sharma",
-                      position: "CS&IT 3rd Yr",
+                      position: "CS&IT 4th Yr",
                       avatar: "/images/Mridul.png",
                     },
                     {
                       name: "Yuvraj Singh",
-                      position: "CS&IT 3nd Yr",
+                      position: "CS&IT 4th Yr",
                       avatar: "/images/Yuvraj.jpg",
                     },
                   ]}
@@ -108,17 +108,17 @@ const Details: React.FC = () => {
                   clubLeads={[
                     {
                       name: "Harshit Kumar Singh",
-                      position: "CS&IT 4th Yr",
+                      position: "CS&IT Pass-Out",
                       avatar: "/images/HarshitKumarSingh.jpg",
                     },
                     {
                       name: "Avneesh Kumar",
-                      position: "CS&IT 3rd Yr",
+                      position: "CS&IT 4th Yr",
                       avatar: "/images/AvneeshKumar.jpg",
                     },
                     {
                       name: "Shubham Singh",
-                      position: "CS&IT 3rd Yr",
+                      position: "CS&IT 4th Yr",
                       avatar: "/images/Shubham.jpg",
                     },
                   ]}
@@ -157,17 +157,17 @@ const Details: React.FC = () => {
                   clubLeads={[
                     {
                       name: "Sakshi Agarwal",
-                      position: "CS&IT 3rd Yr",
+                      position: "CS&IT 4th Yr",
                       avatar: "/images/SakshiAgarwal.jpg",
                     },
                     {
                       name: "Aditi Mishra",
-                      position: "CS&IT 2nd Yr",
+                      position: "CS&IT 3rd Yr",
                       avatar: "/images/AditiMishra.jpg",
                     },
                     {
                       name: "Utkarsh Gupta",
-                      position: "CS&IT 3rd Yr",
+                      position: "CS&IT 4th Yr",
                       avatar: "/images/UtkarshGupta.jpg",
                     },
                   ]}
@@ -204,17 +204,17 @@ const Details: React.FC = () => {
                   clubLeads={[
                     {
                       name: "Deepak Rao",
-                      position: "CS&IT 3rd Yr",
+                      position: "CS&IT 4th Yr",
                       avatar: "/images/deepak.jpeg",
                     },
                     {
                       name: "Mrittika Chandra",
-                      position: "CS&IT 2nd Yr",
+                      position: "CS&IT 3rd Yr",
                       avatar: "/images/Mrittika.jpg",
                     },
                     {
                       name: "Krishnansh Tiwari",
-                      position: "CS&IT 3rd Yr",
+                      position: "CS&IT 4th Yr",
                       avatar: "/images/Krishnansh.jpeg",
                     },
                   ]}
